@@ -4,7 +4,7 @@ This week's assignment is to create a clock using Arduino. I created a clock tha
 
 ## Ideation & Circuit Design
 
-I started by sketching the clock shape and its circuit diagram. I laid out the 10 LEDs to form a spiral shape, and the light goes toward the spiral's center in one minute. 
+I started by drawing the clock shape and its circuit diagram. I decided to arrange 10 LEDs in a spiral shape, and the light would move toward the center of the spiral every 6 seconds for a minute.
 
 ![](./clock-sketch-1.jpg)
 
