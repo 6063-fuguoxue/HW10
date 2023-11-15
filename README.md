@@ -21,6 +21,14 @@ Configuring the breadboard was harder than expected. While the circuit diagram s
 * I connected the Arduino ground pin with a long column labeled "-" on one side of the breadboard using a short black wire. Then, I used a long black wire to connect the two "-" columns on both sides of the breadboard so that the two columns are both connected to the ground. This enables LEDs and resistors to connect neatly on the breadboard.
 
 ## Video
+Speed x2, side view only: 
+
+<div align="center" style="width:50%;">
+      <a href="https://www.youtube.com/watch?v=gt_RxDFJi9o">
+         <img src="https://img.youtube.com/vi/gt_RxDFJi9o/0.jpg" style="width:50%;">
+      </a>
+</div>
+
 Speed x5, side view only: 
 
 <div align="center" style="width:50%;">
