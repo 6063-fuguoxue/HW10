@@ -10,7 +10,7 @@ I started by sketching the clock shape and its circuit diagram. I laid out the 1
 
 This design can be represented by the circuit diagram below. Each resistor-LED pair would be connected to a unique Arduino pin in order to control each LED separately. 
 
-![](./circuit-diagram.jpg)
+![](./circuit-diagram-updated.jpg)
 
 ## Implementation
 The logic of this clock is simple. Since I separate 1 minute into 10 time intervals, I need 10 output ports to control the 10 LEDs. Therefore, in `void setup()`, I initialized the number 2 to 11 pins. Then, in `void loop()`, I wrote `second = int((floor(millis()/1000))) % 60` to convert the number of milliseconds into the number of seconds within the range of [0,59]. Initially, I wrote `second = (floor(millis()/1000)) % 60` but received an error. Upon searching online, I learned that this is because `floor(millis()/1000)` gives a double type number, while `%` (modulo) only works for integer type. Therefore, I use the `int()` function to convert the current number of seconds into an integer. 
