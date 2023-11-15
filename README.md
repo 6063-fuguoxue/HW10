@@ -8,7 +8,7 @@ I started by sketching the clock shape and its circuit diagram. I laid out the 1
 
 ![](./clock-sketch-1.jpg)
 
-The circuit diagram is simply 10 resistor-LED pairs connected in parallel. 
+This design can be represented by the circuit diagram below. Each resistor-LED pair would be connected to a unique Arduino pin in order to control each LED separately. 
 
 ![](./circuit-diagram.jpg)
 
